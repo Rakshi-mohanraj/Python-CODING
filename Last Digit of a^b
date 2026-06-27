@@ -14,7 +14,7 @@ class Solution:
 2) (simple program: high time complexity)
 class Solution:
     def getLastDigit(self, a, b):
-        c=int(a)
+        c=int(a) 
         d=int(b)
         e=c**d
         return e%10
