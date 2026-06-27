@@ -1,0 +1,11 @@
+https://www.geeksforgeeks.org/problems/power-of-numbers-1587115620/1
+class Solution:
+    def reverseexponentiation(self, n):
+        # code here
+        temp=n
+        b=0
+        while(temp>0):
+            digit=temp%10
+            b=b*10+digit
+            temp=temp//10
+        return pow(n,b)
