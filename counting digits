@@ -10,3 +10,4 @@ class Solution:
                 count=count+1
             temp//=10
         return count
+ 
