@@ -1,0 +1,21 @@
+https://www.geeksforgeeks.org/problems/find-last-digit-of-ab-for-large-numbers1936/1
+1) using pow:
+syntax: pow(base,expo,mod)
+class Solution:
+    def getLastDigit(self, a, b):
+        if b==0:
+            return 1
+        else:
+            c=int(a)
+            d=int(b)
+            return pow(c,d,10)
+            
+
+2) (simple program: high time complexity)
+class Solution:
+    def getLastDigit(self, a, b):
+        c=int(a)
+        d=int(b)
+        e=c**d
+        return e%10
+        
