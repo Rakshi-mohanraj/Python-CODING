@@ -4,3 +4,4 @@ class Solution:
         b=arr.pop()
         arr.insert(0,b)
         return arr
+ 
