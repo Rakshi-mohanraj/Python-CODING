@@ -2,7 +2,7 @@ https://www.geeksforgeeks.org/problems/check-if-two-arrays-are-equal-or-not3847/
 class Solution:
     def checkEqual(self, a, b) -> bool:
         #code here
-        a.sort()
+        a.sort() 
         b.sort()
         if (a==b):
             return True
