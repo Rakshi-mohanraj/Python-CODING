@@ -1,0 +1,12 @@
+https://www.geeksforgeeks.org/problems/check-if-two-arrays-are-equal-or-not3847/1?itm_source=geeksforgeeks&itm_medium=Article&itm_campaign=bottom_sticky_on_Article
+class Solution:
+    def checkEqual(self, a, b) -> bool:
+        #code here
+        a.sort()
+        b.sort()
+        if (a==b):
+            return True
+        else:
+            return False
+    
+    
