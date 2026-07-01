@@ -1,0 +1,5 @@
+https://www.hackerrank.com/contests/tcs-csac-questions/challenges/largest-number-that-can-be-made-using-all-of-the-digits/problem?isFullScreen=true
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+a=int(input())
+c="".join(sorted(str(a),reverse=True))
+print(c)
