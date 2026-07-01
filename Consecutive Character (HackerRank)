@@ -3,7 +3,7 @@ https://www.hackerrank.com/contests/tcs-csac-questions/challenges/consecutive-ch
 a=input()
 count=1
 b=[]
-for i in range(0,len(a)-1):
+for i in range(0,len(a)-1): 
     if (a[i]==a[i+1]):
         count= count+1
         if count % 2 == 0 and (i + 2 == len(a) or a[i + 1] != a[i + 2]):
