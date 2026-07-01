@@ -1,0 +1,20 @@
+https://www.hackerrank.com/contests/tcs-csac-questions/challenges/lanes-of-city/problem?isFullScreen=true
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n=int(input())
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+found= False
+for i in range(n):
+    for j in range(n):
+        lane1=b+i*a
+        lane2=d+j*c
+        if(lane1==lane2):
+            print(lane1)
+            found=True
+            break
+    if found:
+        break
+if not found:
+    print("No same amount of fuel found")        
