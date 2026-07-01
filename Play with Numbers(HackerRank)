@@ -1,0 +1,11 @@
+https://www.hackerrank.com/contests/tcs-csac-questions/challenges/play-with-numbers-14/problem?isFullScreen=true
+a=int(input())
+fact=1
+for i in range(1,a+1):
+    fact=i*fact
+while fact%10==0:
+    if(fact%10==0):
+        fact=fact//10
+else:
+    fact=fact%10
+print(fact)
